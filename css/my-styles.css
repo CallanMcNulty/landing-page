@@ -8,6 +8,7 @@ a {
 }
 
 .links-panel {
+  max-width: 500px;
   border-right: 1px solid #DBD8A7;
   border-top: 1px solid #DBD8A7;
   background-color: #FFFDE3;
@@ -18,6 +19,7 @@ a {
 }
 
 .links-panel-backing {
+  max-width: 500px;
   position: fixed;
   z-index: -1;
   top: 0;
@@ -29,6 +31,14 @@ a {
   height: 100%;
   margin-left: -1px;
   margin-top: -1px;
+}
+
+ol {
+  max-width: 400px;
+}
+
+.col-sm-8 * {
+  max-width: 1300px;
 }
 
 .col-sm-4 p {
@@ -71,6 +81,7 @@ a {
 
 .about-me {
   margin: 15px;
+  margin-bottom: 40px;
   text-align: justify;
   padding: 10px;
   padding-top: 0px;
@@ -85,8 +96,14 @@ a {
   background-color: #D1E7E8;
 }
 
-.col-sm-6 {
-  margin-bottom: 30px;
+.col-sm-6 p {
+  padding: 20px;
+  padding-top: 5px;
+}
+
+.col-sm-6 h4 {
+  padding-left: 20px;
+  text-decoration: underline;
 }
 
 .face {
