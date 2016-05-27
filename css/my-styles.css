@@ -45,12 +45,29 @@ a {
 
 .contact-panel {
   margin: 15px;
-  /*border: 1px solid gray;*/
+  margin-bottom: 25px;
   padding: 15px;
   padding-top: 25px;
   background-color: #DEDEDE;
+  border: 1px solid #C2C2C2;
 }
 
 .contact-panel .row {
   max-width: 800px;
+}
+
+.about-me {
+  margin: 15px;
+  text-align: justify;
+  padding: 10px;
+  padding-top: 0px;
+  border: 1px solid #B8D9DB;
+  background-color: #E1EFF0;
+}
+
+.about-me h3 {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #B8D9DB;
+  background-color: #D1E7E8;
 }
